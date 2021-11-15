@@ -1,23 +1,13 @@
-## To run this project:
+## References:
 
-### Generate npm credentials
+GitHub - https://github.com/jmekjean/sw-app
+React Tutorial - https://javascript.plainenglish.io/create-a-react-app-from-scratch-in-2021-8e9948602e9c
+Localhost - http://localhost:8080/
 
-Go to https://campuslabs.visualstudio.com/CollegiateLink/_packaging?_a=connect&feed=CampusLabsNPM
-Click on npm
-Click Windows or Other(for Mac) under Project setup
-Follow setup instructions
+### Running App
 
-### Running the backend
+First time, in the root directory terminal run: "npm init"
 
-After your npm credentials are setup, make sure to run a `dotnet restore --interactive` from the src/App.CC.Home directory to restore all nuget packages
-In VS Code: click debug, select .NET Core Launch(web), click run
+Next run: "npm run start"
 
-### Starting the front end
-
-make sure npm is installed, if not install in the root folder for all git files
-In terminal cd into src/ClientApp
-Run `yarn install`
-Run `yarn start`
-Open a new tab in the browser and make sure you are signed into devtestrp
-Go to https://localhost:5000/actioncenter or https://localhost:5001/actioncenter
-# sw-app
+Go to http://localhost:8080/ in the browser.
